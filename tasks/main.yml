@@ -8,7 +8,7 @@
 - name: Create app container
   docker_container:
     name: "{{application_name}}"
-    image: "namelivia/{{application}}:latest"
+    image: "namelivia/{{application_name}}:latest"
     memory: "200MB"
     pull: true
     restart_policy: "always"
