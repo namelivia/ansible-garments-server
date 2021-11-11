@@ -1,4 +1,4 @@
-# User Info Service Ansible role
+# Garments Server Ansible role
 
 ## This is a WIP
 
@@ -11,7 +11,7 @@ collections:
   - community.docker
 
 roles:
-  - src: https://github.com/namelivia/namelivia.userinfoservice
+  - src: https://github.com/namelivia/namelivia.garments-server
 ```
 
 ## Required variables (TODO: Update these)
