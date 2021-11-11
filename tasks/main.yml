@@ -22,11 +22,11 @@
     exposed_ports:
       - "80"
     env:
-      database_url: "{{database_url}}"
-      notifications_service_endpoint: "{{notifications_service_endpoint}}"
-      images_service_endpoint: "{{images_service_endpoint}}"
-      journaling_service_endpoint: "{{journaling_service_endpoint}}"
-      user_info_service_endpoint: "{{user_info_service_endpoint}}"
+      DATABASE_URL: "{{database_url}}"
+      NOTIFICATIONS_SERVICE_ENDPOINT: "{{notifications_service_endpoint}}"
+      IMAGES_SERVICE_ENDPOINT: "{{images_service_endpoint}}"
+      JOURNALING_SERVICE_ENDPOINT: "{{journaling_service_endpoint}}"
+      USER_INFO_SERVICE_ENDPOINT: "{{user_info_service_endpoint}}"
 
 - include_role:
     name: namelivia.postgres
