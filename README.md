@@ -11,7 +11,7 @@ collections:
   - community.docker
 
 roles:
-  - src: https://github.com/namelivia/namelivia.garments-server
+  - src: https://github.com/namelivia/ansible-garments-server
 ```
 
 ## Required variables (TODO: Update these)
